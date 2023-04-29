@@ -4,7 +4,7 @@ import os
 
 parser = argparse.ArgumentParser()
 parser.add_argument("prompt", help="prompt that pass to openAI")
-parser.add_argument("filename", help="prompt that pass to openAI")
+parser.add_argument("filename", help="name of new file")
 args = parser.parse_args()
 
 
